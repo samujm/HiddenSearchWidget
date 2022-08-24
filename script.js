@@ -5,7 +5,7 @@ const actives = document.querySelectorAll('.active')
 
 
 btn.addEventListener('click',()=>{
-        search.classList.add('active')
+        search.classList.toggle('active')
         input.focus()
 })
 
